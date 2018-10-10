@@ -1,0 +1,7 @@
+Memory layout of struct IMU_data_x64, size of IMU_data_x64 is 16
+Type,	Size,	Offset,	Address
+Bool,	1,	0,	0031FBB4,
+BYTE,	1,	1,	0031FBB5,
+Float,	4,	4,	0031FBB8,
+Float,	4,	8,	0031FBBC,
+Float,	4,	12,	0031FBC0,
