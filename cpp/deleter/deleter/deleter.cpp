@@ -11,7 +11,7 @@ factory * factory::create()
 	return new factory();
 }
 void factory::destroy(factory * fp)  {
-	fp->~factory();
+	delete fp;
 }
 factory::factory() {
 	char*p = new char[100];
